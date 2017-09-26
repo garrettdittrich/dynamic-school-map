@@ -7,7 +7,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:abc123@localhost/dynmap'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://:@localhost/dynmap'
 db = SQLAlchemy(app)
 
 #Calls system level ping (must be run as root for icmp to work)
