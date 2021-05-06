@@ -9,7 +9,7 @@ command-not-found==0.3
 decorator==4.0.6
 defer==1.0.6
 Flask==0.12.2
-Flask-Cors==3.0.3
+Flask-Cors==3.0.9
 Flask-Restless==0.17.0
 Flask-SQLAlchemy==2.2
 html5lib==0.999
